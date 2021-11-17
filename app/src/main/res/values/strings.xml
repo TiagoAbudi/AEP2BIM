@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MUu</string>
+    <string name="tela_login_senha">Senha</string>
+    <string name="tela_login_nome">Nome</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="criar_fazenda">Criar Fazenda</string>
+    <string name="abrir_opcoes_de_manejo">Abrir Opções de Manejo</string>
+    <string name="abrir_opcoes_de_rebanho">Abrir Opções de Rebanho</string>
+    <string name="realizar_cronograma">Realizar Cronograma</string>
+    <string name="sair">Sair</string>
+    <string name="botao_sair">Botçao Sair</string>
+    <string name="botao_cronograma">Botão Cronograma</string>
+    <string name="botao_rebanho">Botão Rebanho</string>
+    <string name="botao_manejo">Botão Manejo</string>
+    <string name="botao_fazenda">Botão Fazenda</string>
+    <string name="botao_adicionar_fazenda">Botão Adicionar Fazenda</string>
+</resources>
