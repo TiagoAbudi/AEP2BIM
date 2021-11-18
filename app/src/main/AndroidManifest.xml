@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".activity.CriarContaActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.CronogramaActivity"
             android:exported="false" />
         <activity

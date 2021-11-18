@@ -16,4 +16,11 @@
     <string name="botao_manejo">Botão Manejo</string>
     <string name="botao_fazenda">Botão Fazenda</string>
     <string name="botao_adicionar_fazenda">Botão Adicionar Fazenda</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="confirme_sua_senha">Confirme sua senha</string>
+    <string name="confirmacao_da_senha">Confirmação da senha</string>
+    <string name="menssagem_de_erro_campos_iguais">Os campos precisam ser iguais!</string>
+    <string name="menssagem_de_erro_tamanho_senha">A senha deve ter no mínimo 5 caracteres</string>
+    <string name="menssagem_de_erro_campo_obrigatorio">Campo Obrigatório!</string>
 </resources>

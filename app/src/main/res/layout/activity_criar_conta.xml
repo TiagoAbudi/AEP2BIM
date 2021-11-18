@@ -23,7 +23,7 @@
             android:background="@mipmap/ic_logo" />
 
         <TextView
-            android:id="@+id/tela_login_nome_label"
+            android:id="@+id/tela_criar_conta_nome_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#0DB666"
@@ -31,17 +31,17 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_nome"
+            android:id="@+id/tela_criar_conta_campo_nome"
             android:layout_width="match_parent"
             android:background="@drawable/shape"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:padding="5dp"
             android:hint="@string/digite_seu_nome"
-            android:inputType="textCapWords" />
+            android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/tela_login_senha_label"
+            android:id="@+id/tela_criar_conta_senha_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#0DB666"
@@ -49,7 +49,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_senha"
+            android:id="@+id/tela_criar_conta_campo_senha"
             android:layout_width="match_parent"
             android:background="@drawable/shape"
             android:layout_height="wrap_content"
@@ -59,24 +59,32 @@
             android:inputType="textPassword" />
 
         <TextView
-            android:id="@+id/tela_login_criar_conta_label"
+            android:id="@+id/tela_criar_conta_corfirmacao_senha_label"
             android:layout_width="wrap_content"
-            android:layout_gravity="end"
             android:layout_height="wrap_content"
-            android:onClick="vaiParaOCadastro"
             android:textColor="#0DB666"
-            android:text="@string/criar_conta"
+            android:text="@string/confirmacao_da_senha"
             android:textStyle="bold" />
 
+        <EditText
+            android:id="@+id/tela_criar_conta_corfirmacao_campo_senha"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:hint="@string/confirme_sua_senha"
+            android:inputType="textPassword" />
+
         <Button
-            android:id="@+id/tela_login_botao_entrar"
+            android:id="@+id/tela_criar_conta_botao_cadastra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:background="@drawable/shape"
-            android:text="@string/entrar" />
+            android:text="@string/cadastrar" />
     </LinearLayout>
 
 </LinearLayout>
