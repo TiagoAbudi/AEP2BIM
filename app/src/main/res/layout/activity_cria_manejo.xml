@@ -16,66 +16,84 @@
         android:paddingEnd="20dp"
         android:paddingBottom="40dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@mipmap/ic_logo" />
-
         <TextView
-            android:id="@+id/tela_login_nome_label"
+            android:id="@+id/tela_criar_manejo_id_rebanho_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tela_login_nome"
+            android:text="@string/id_rebanho"
             android:textColor="#0DB666"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_nome"
+            android:id="@+id/tela_criar_manejo_id_rebanho_campo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape"
-            android:hint="@string/digite_seu_nome"
-            android:inputType="textCapWords"
+            android:hint="@string/digite_o_id_do_rebanho"
+            android:inputType="number"
             android:padding="5dp" />
 
         <TextView
-            android:id="@+id/tela_login_senha_label"
+            android:id="@+id/tela_criar_manejo_data_ultima_alimentacao_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tela_login_senha"
+            android:text="@string/data_ultima_alimentacao"
             android:textColor="#0DB666"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_senha"
+            android:id="@+id/tela_criar_manejo_data_ultima_alimentacao_campo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape"
-            android:hint="@string/digite_sua_senha"
-            android:inputType="textPassword"
+            android:hint="@string/digite_a_data_da_ultima_alimentacao"
             android:padding="5dp" />
 
         <TextView
-            android:id="@+id/tela_login_criar_conta_label"
+            android:id="@+id/tela_criar_manejo_data_ultima_vacinacao_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:onClick="vaiParaOCadastro"
-            android:text="@string/criar_conta"
+            android:text="@string/data_ultima_vacinacao"
             android:textColor="#0DB666"
             android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tela_criar_manejo_data_ultima_vacinacao_campo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            android:hint="@string/digite_a_data_da_ultima_vacina"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tela_criar_manejo_distancia_percorrida_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distancia_percorrida_dia"
+            android:textColor="#0DB666"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tela_criar_manejo_distancia_percorrida_campo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            android:hint="@string/digite_a_distancia_percorrida_km"
+            android:inputType="number"
+            android:padding="5dp" />
 
         <Button
-            android:id="@+id/tela_login_botao_entrar"
+            android:id="@+id/tela_criar_manejo_botao_cadastra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/shape"
-            android:text="@string/entrar"
+            android:text="@string/cadastrar"
             android:textStyle="bold" />
     </LinearLayout>
 

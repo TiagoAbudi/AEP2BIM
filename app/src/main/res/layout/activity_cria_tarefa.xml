@@ -16,66 +16,48 @@
         android:paddingEnd="20dp"
         android:paddingBottom="40dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@mipmap/ic_logo" />
-
         <TextView
-            android:id="@+id/tela_login_nome_label"
+            android:id="@+id/tela_criar_tarefa_hora_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tela_login_nome"
+            android:text="@string/hora"
             android:textColor="#0DB666"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_nome"
+            android:id="@+id/tela_criar_tarefa_hora_campo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape"
-            android:hint="@string/digite_seu_nome"
-            android:inputType="textCapWords"
+            android:hint="@string/digite_a_hora_para_cumprir_a_atividade"
             android:padding="5dp" />
 
         <TextView
-            android:id="@+id/tela_login_senha_label"
+            android:id="@+id/tela_criar_tarefa_atividade_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tela_login_senha"
+            android:text="@string/atividade"
             android:textColor="#0DB666"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_senha"
+            android:id="@+id/tela_criar_tarefa_atividade_campo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape"
-            android:hint="@string/digite_sua_senha"
-            android:inputType="textPassword"
+            android:hint="@string/digite_a_atividade_a_ser_feita"
             android:padding="5dp" />
-
-        <TextView
-            android:id="@+id/tela_login_criar_conta_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:onClick="vaiParaOCadastro"
-            android:text="@string/criar_conta"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
 
         <Button
-            android:id="@+id/tela_login_botao_entrar"
+            android:id="@+id/tela_criar_atividade_botao_cadastra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/shape"
-            android:text="@string/entrar"
+            android:text="@string/cadastrar"
             android:textStyle="bold" />
     </LinearLayout>
 

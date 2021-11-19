@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:text="@string/criar_fazenda"
+                android:text="@string/abrir_opcoes_de_fazenda"
                 android:textColor="#137A00"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -42,8 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:onClick="vaiParaOManejo"
-            android:background="@drawable/shape">
+            android:background="@drawable/shape"
+            android:onClick="vaiParaOManejo">
 
             <ImageView
                 android:layout_width="wrap_content"

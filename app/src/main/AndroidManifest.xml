@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".activity.CriaTarefaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CriaManejoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CriaRebanhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CriaFazendaActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.CriarContaActivity"
             android:exported="false" />
         <activity

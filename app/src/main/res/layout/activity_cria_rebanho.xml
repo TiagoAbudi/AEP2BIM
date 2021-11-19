@@ -16,66 +16,85 @@
         android:paddingEnd="20dp"
         android:paddingBottom="40dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@mipmap/ic_logo" />
-
         <TextView
-            android:id="@+id/tela_login_nome_label"
+            android:id="@+id/tela_criar_rebanho_tipo_rebanho_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tela_login_nome"
+            android:text="@string/tipo_rebanho"
             android:textColor="#0DB666"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_nome"
+            android:id="@+id/tela_criar_rebanho_tipo_rebanho_campo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape"
-            android:hint="@string/digite_seu_nome"
-            android:inputType="textCapWords"
+            android:hint="@string/digite_o_tipo_do_rebanho"
             android:padding="5dp" />
 
         <TextView
-            android:id="@+id/tela_login_senha_label"
+            android:id="@+id/tela_criar_rebanho_nome_rebanho_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tela_login_senha"
+            android:text="@string/nome_rebanho"
             android:textColor="#0DB666"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/tela_login_campo_senha"
+            android:id="@+id/tela_criar_rebanho_nome_rebanho_campo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape"
-            android:hint="@string/digite_sua_senha"
-            android:inputType="textPassword"
+            android:hint="@string/digite_o_nome_do_rebanho"
+            android:inputType="textPersonName"
             android:padding="5dp" />
 
         <TextView
-            android:id="@+id/tela_login_criar_conta_label"
+            android:id="@+id/tela_criar_rebanho_quantidade_rebanho_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:onClick="vaiParaOCadastro"
-            android:text="@string/criar_conta"
+            android:text="@string/quantidade_animais"
             android:textColor="#0DB666"
             android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tela_criar_rebanho_quantidade_rebanho_campo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            android:hint="@string/digite_o_tamanho_do_rebanho"
+            android:inputType="number"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tela_criar_rebanho_id_fazenda_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_fazenda"
+            android:textColor="#0DB666"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tela_criar_rebanho_id_fazenda_campo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            android:hint="@string/digite_o_id_da_fazenda"
+            android:inputType="number"
+            android:padding="5dp" />
 
         <Button
-            android:id="@+id/tela_login_botao_entrar"
+            android:id="@+id/tela_criar_rebanho_botao_cadastra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/shape"
-            android:text="@string/entrar"
+            android:text="@string/cadastrar"
             android:textStyle="bold" />
     </LinearLayout>
 
