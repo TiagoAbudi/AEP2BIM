@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
         recuperarLayout();
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,7 +66,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void recuperarLayout() {
-        setContentView(R.layout.activity_login);
         btnEntrar = findViewById(R.id.tela_login_botao_entrar);
         edtNome = findViewById(R.id.tela_login_campo_nome);
         edtSenha = findViewById(R.id.tela_login_campo_senha);

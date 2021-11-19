@@ -16,86 +16,98 @@
         android:paddingEnd="20dp"
         android:paddingBottom="40dp">
 
-        <TextView
-            android:id="@+id/tela_criar_fazenda_id_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/id"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/tela_criar_fazenda_campo_id"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_o_id_da_fazenda"
-            android:inputType="number"
-            android:padding="5dp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tela_criar_fazenda_nome_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nome"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/tela_criar_fazenda_campo_nome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_o_nome_da_fazenda"
-            android:inputType="textPersonName"
-            android:padding="5dp" />
+                <TextView
+                    android:id="@+id/tela_criar_fazenda_id_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tela_criar_fazneda_endereco_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/endereco"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tela_criar_fazenda_campo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_o_id_da_fazenda"
+                    android:inputType="number"
+                    android:padding="5dp" />
 
-        <EditText
-            android:id="@+id/tela_criar_fazenda_campo_endereco"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_o_endereco_da_fazenda"
-            android:padding="5dp" />
+                <TextView
+                    android:id="@+id/tela_criar_fazenda_nome_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tela_criar_fazenda_tamanho_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tamanho"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tela_criar_fazenda_campo_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_o_nome_da_fazenda"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
 
-        <EditText
-            android:id="@+id/tela_criar_fazenda_campo_tamanho"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_o_tamano_da_fazenda"
-            android:inputType="number"
-            android:padding="5dp" />
+                <TextView
+                    android:id="@+id/tela_criar_fazneda_endereco_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/endereco"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/tela_criar_fazenda_botao_cadastra"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/shape"
-            android:text="@string/cadastrar"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tela_criar_fazenda_campo_endereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_o_endereco_da_fazenda"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/tela_criar_fazenda_tamanho_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tamanho"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tela_criar_fazenda_campo_tamanho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_o_tamano_da_fazenda"
+                    android:inputType="number"
+                    android:padding="5dp" />
+
+                <Button
+                    android:id="@+id/tela_criar_fazenda_botao_cadastra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape"
+                    android:text="@string/cadastrar"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </LinearLayout>

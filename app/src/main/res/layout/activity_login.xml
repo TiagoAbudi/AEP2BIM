@@ -16,67 +16,78 @@
         android:paddingEnd="20dp"
         android:paddingBottom="40dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@mipmap/ic_logo" />
-
-        <TextView
-            android:id="@+id/tela_login_nome_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tela_login_nome"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/tela_login_campo_nome"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_seu_nome"
-            android:inputType="textCapWords"
-            android:padding="5dp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tela_login_senha_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tela_login_senha"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/tela_login_campo_senha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_sua_senha"
-            android:inputType="textPassword"
-            android:padding="5dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_logo" />
 
-        <TextView
-            android:id="@+id/tela_login_criar_conta_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:onClick="vaiParaOCadastro"
-            android:text="@string/criar_conta"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tela_login_nome_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tela_login_nome"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/tela_login_botao_entrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/shape"
-            android:text="@string/entrar"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tela_login_campo_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_seu_nome"
+                    android:inputType="textCapWords"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/tela_login_senha_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tela_login_senha"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tela_login_campo_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_sua_senha"
+                    android:inputType="textPassword"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/tela_login_criar_conta_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:onClick="vaiParaOCadastro"
+                    android:text="@string/criar_conta"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tela_login_botao_entrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape"
+                    android:text="@string/entrar"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </LinearLayout>

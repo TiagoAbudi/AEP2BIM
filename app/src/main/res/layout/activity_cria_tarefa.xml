@@ -16,49 +16,60 @@
         android:paddingEnd="20dp"
         android:paddingBottom="40dp">
 
-        <TextView
-            android:id="@+id/tela_criar_tarefa_hora_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hora"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/tela_criar_tarefa_hora_campo"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_a_hora_para_cumprir_a_atividade"
-            android:padding="5dp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tela_criar_tarefa_atividade_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/atividade"
-            android:textColor="#0DB666"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/tela_criar_tarefa_atividade_campo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/shape"
-            android:hint="@string/digite_a_atividade_a_ser_feita"
-            android:padding="5dp" />
+                <TextView
+                    android:id="@+id/tela_criar_tarefa_hora_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hora"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/tela_criar_atividade_botao_cadastra"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/shape"
-            android:text="@string/cadastrar"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tela_criar_tarefa_hora_campo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_a_hora_para_cumprir_a_atividade"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/tela_criar_tarefa_atividade_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atividade"
+                    android:textColor="#0DB666"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tela_criar_tarefa_atividade_campo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape"
+                    android:hint="@string/digite_a_atividade_a_ser_feita"
+                    android:padding="5dp" />
+
+                <Button
+                    android:id="@+id/tela_criar_atividade_botao_cadastra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape"
+                    android:text="@string/cadastrar"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </LinearLayout>
