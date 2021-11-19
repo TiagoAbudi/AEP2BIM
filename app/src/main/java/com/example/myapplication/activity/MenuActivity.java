@@ -38,6 +38,11 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void vaiParaOsAnimais(View view) {
+        Intent intent = new Intent(this, AnimalActivity.class);
+        startActivity(intent);
+    }
+
     public void vaiParaOLogin(View view) {
         constroiDialog();
     }
